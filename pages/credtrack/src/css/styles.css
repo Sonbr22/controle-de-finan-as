@@ -1,0 +1,30 @@
+header {
+    background:linear-gradient(90deg, rgb(6, 219, 205) 0% , rgb(23, 26, 197) 40% , rgb(6, 214, 37) 100%);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    display: inline;
+    background: linear-gradient(25deg, rgb(205, 3, 3), rgb(238, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-family: "Londrina Outline", sans-serif;
+     font-size: 35px;
+}
+
+header h1 span{
+    margin-left: 45px;
+     font-family: "Londrina Outline", sans-serif;
+}
+header a{
+    font-size: 24px;
+    list-style: none;
+    color: white;
+    transition: all 0.3 ease;
+}
+header a:hover{
+    color: blue;
+    scale: 1.2;
+    transform: translateY(-0.5px);}

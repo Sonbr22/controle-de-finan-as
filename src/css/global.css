@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=Londrina+Outline&display=swap');
+@media(max-width: 576px){
+    .menupages{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .buttonpages{
+    padding: 8px 10%;
+     font-size: 13px
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IM Fell Great Primer", serif;
+}

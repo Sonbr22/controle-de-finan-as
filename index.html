@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="/src/css/styles.css">
+  <link rel="stylesheet" href="/src/css/global.css">
+  <script src="./src/js/js.js" defer></script> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <section id="estatisticas" class="ativo">
+        <iframe src="estatisticas.html" frameborder="0" style="width:100%; height:92vh;"></iframe>
+      </section>
+
+      <section id="menu">
+        <iframe src="menu.html" frameborder="0" style="width:100%; height:92vh;"></iframe>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <nav>
+      <button onclick="mostrarSecao('estatisticas')">
+       <i class="fa-sharp-duotone fa-solid fa-chart-simple"></i>
+        <span>Estatísticas</span>
+      </button>
+      <button onclick="mostrarSecao('menu')">
+        <i class="fa-solid fa-bars"></i>
+        <span>Menu</span>
+      </button>
+    </nav>
+  </footer>
+</body>
+</html>

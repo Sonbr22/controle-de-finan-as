@@ -1,0 +1,26 @@
+header {
+    background:linear-gradient(90deg, rgb(4, 0, 255) 0% , rgb(13, 255, 0) 40% , rgb(249, 166, 0) 100%);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    display: inline;
+    background: linear-gradient(25deg, rgb(212, 1, 244), rgb(4, 255, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-family: "Londrina Outline", sans-serif;
+     font-size: 35px;
+}
+
+header a{
+    font-size: 24px;
+    list-style: none;
+    color: white;
+    transition: all 0.3 ease;
+}
+header a:hover{
+    color: blue;
+    scale: 1.2;
+    transform: translateY(-0.5px);}
