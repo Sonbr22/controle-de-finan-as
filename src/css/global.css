@@ -2,6 +2,11 @@
 @media(max-width: 576px){
     .menupages{
         grid-template-columns: repeat(2, 1fr);
+        padding: 5%;
+    }
+    .menupages li{
+       width: 130px;
+       height: 130px;
     }
     .buttonpages{
     padding: 8px 10%;
