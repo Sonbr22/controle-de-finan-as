@@ -1,3 +1,9 @@
+body{
+    background-image: url(../../../../src/images/black-mosaic-background-vector.jpg);
+    background-size: auto;
+      
+}
+
 header {
     background:linear-gradient(90deg, rgb(6, 219, 205) 0% , rgb(23, 26, 197) 40% , rgb(6, 214, 37) 100%);
     padding: 15px 30px;
@@ -21,10 +27,105 @@ header h1 span{
 header a{
     font-size: 24px;
     list-style: none;
-    color: white;
+    color: rgb(255, 255, 255);
     transition: all 0.3 ease;
 }
 header a:hover{
     color: blue;
-    scale: 1.2;
-    transform: translateY(-0.5px);}
+    transform: translateY(-0.5px) scale(1.2);
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form button{
+    color: white;
+    background-color: transparent;
+    align-self: flex-end;
+    width: auto; 
+    padding: 8px 14px; 
+    cursor: pointer;
+    border: white solid;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    background-color: rgba(242, 50, 50, 0.738);
+    transform: translateY(-5px) scale(1.1);
+}
+form{
+    background-color: rgba(199, 199, 199, 0.277);
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 40px;
+    border: white solid 5px;
+    border-radius: 30px;
+    row-gap: 8px;
+}
+.titulo_form, .titulo_pago{
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+label{
+    color: white;
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 35px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.693);
+}
+
+#btn_form, #btn_pago{
+    margin-top: 40px;
+    width: 20%;
+    transition: all 0.3s ease;
+}
+
+#btn_form:hover, #btn_pago:hover{
+    background-color: rgb(27, 62, 236);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.formulario{
+    display: none;
+}
+
+.valor_pago{
+    display: none;
+}
+
+.mais{
+
+}
+
+.btn_mais{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;  
+  color: white;
+  background-color: rgba(255, 255, 255, 0.693);
+  border: 2px solid white;
+  position: fixed;
+  right: 8%;
+  bottom: 5%;
+}
